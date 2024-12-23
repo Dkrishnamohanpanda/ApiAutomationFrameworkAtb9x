@@ -4,29 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a24addf-9f9b-4c67-9ba2-03b34c79650d" name="Changes" comment="" />
+    <list default="true" id="0a24addf-9f9b-4c67-9ba2-03b34c79650d" name="Changes" comment="Add all">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/endpoints/ApiConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/modules/PayloadManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos/BookingResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos/Bookingdates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/asserts/AssertActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/crud/testCreateBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/crud/testCreateToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.prod.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.reg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.sanity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.smoke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/sample/HelloRestAssured.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/sample/TestIntegrationSample.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2qQr3HMTyJBOGTkxwYV8N9a1CDh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.AppTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/dkris/IdeaProjects/ApiAutomationFrameworkAtb9x/testng.qa.xml.executor": "Debug",
+    "TestNG.testCreateBooking.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dkris/IdeaProjects/ApiAutomationFrameworkAtb9x"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dkris\IdeaProjects\ApiAutomationFrameworkAtb9x" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thetestingacademy.pojos" />
+      <recent name="com.thetestingacademy.tests.crud" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.testCreateBooking">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiAutomationFrameworkAtb9x" />
       <extension name="coverage">
@@ -42,8 +87,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/dkris/IdeaProjects/ApiAutomationFrameworkAtb9x/testng.qa.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiAutomationFrameworkAtb9x" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.qa.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testCreateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiAutomationFrameworkAtb9x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.tests.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.tests.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.tests.crud.testCreateBooking" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.testCreateBooking" />
+        <item itemvalue="TestNG.C:/Users/dkris/IdeaProjects/ApiAutomationFrameworkAtb9x/testng.qa.xml" />
         <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
@@ -57,6 +131,30 @@
       <option name="presentableId" value="Default" />
       <updated>1734605441348</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add all">
+      <option name="closed" value="true" />
+      <created>1734661839278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734661839278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add all" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add all" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/crud/testCreateBooking.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
