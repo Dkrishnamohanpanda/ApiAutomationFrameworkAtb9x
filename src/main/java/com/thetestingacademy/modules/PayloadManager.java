@@ -35,5 +35,9 @@ public class PayloadManager {
         gson = new Gson();
         BookingResponse bookingResponse =gson.fromJson(responseString, BookingResponse.class);
         return  bookingResponse;
+
+//        public void getTToken(){
+//
+//        }
     }
 }
