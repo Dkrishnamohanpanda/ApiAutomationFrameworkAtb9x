@@ -76,5 +76,6 @@ public class Booking {
     }
 
     public void setDeapositpaid(boolean b) {
+
     }
 }

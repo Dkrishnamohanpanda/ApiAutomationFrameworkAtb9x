@@ -42,4 +42,22 @@ public ValidatableResponse validatableResponse;
             .addHeader("Content-Type","application/json")
             .build().log().all();
 }
+  public String getToken(){
+    requestSpecification = RestAssured
+            .given()
+            .baseUri(ApiConstants.BASE_URL)
+            .basePath(ApiConstants.AUTH_URL);
+//    setting payload
+      String payload = payloadManager.setAuthPayload();
+//      get the token
+      response = requestSpecification.contentType(ContentType.JSON).body(payload).when().post();
+
+//     String]] extract the token
+      String token = payloadManager.getTokenFromJSON(response.asString());
+      return token;
+
+
+//
+
+}
 }
